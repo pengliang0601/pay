@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="roncoo-pay-web-merchant:war">
+    <output-path>$PROJECT_DIR$/roncoo-pay-web-merchant/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>roncoo-pay-web-merchant</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="roncoo-pay-web-merchant.war">
+      <element id="artifact" artifact-name="roncoo-pay-web-merchant:war exploded" />
+    </root>
+  </artifact>
+</component>

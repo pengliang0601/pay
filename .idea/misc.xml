@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/roncoo-pay-web-boss" />
+    <file type="web" url="file://$PROJECT_DIR$/roncoo-pay-web-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/roncoo-pay-web-merchant" />
+    <file type="web" url="file://$PROJECT_DIR$/roncoo-pay-web-sample-shop" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/roncoo-pay-app-notify/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-app-order-polling/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-app-reconciliation/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-app-settlement/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-web-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-web-merchant/pom.xml" />
+        <option value="$PROJECT_DIR$/roncoo-pay-web-sample-shop/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

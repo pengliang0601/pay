@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="roncoo-pay-common-core" />
+        <module name="roncoo-pay-web-boss" />
+        <module name="roncoo-pay-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="roncoo-pay" target="1.8" />
+      <module name="roncoo-pay-app-notify" target="1.8" />
+      <module name="roncoo-pay-app-order-polling" target="1.8" />
+      <module name="roncoo-pay-app-reconciliation" target="1.8" />
+      <module name="roncoo-pay-app-settlement" target="1.8" />
+      <module name="roncoo-pay-common-core" target="1.8" />
+      <module name="roncoo-pay-service" target="1.8" />
+      <module name="roncoo-pay-web-boss" target="1.8" />
+      <module name="roncoo-pay-web-gateway" target="1.8" />
+      <module name="roncoo-pay-web-merchant" target="1.8" />
+      <module name="roncoo-pay-web-sample-shop" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="roncoo-pay-app-notify" options="-parameters" />
+      <module name="roncoo-pay-app-order-polling" options="-parameters" />
+      <module name="roncoo-pay-app-reconciliation" options="-parameters" />
+      <module name="roncoo-pay-app-settlement" options="-parameters" />
+      <module name="roncoo-pay-common-core" options="-parameters" />
+      <module name="roncoo-pay-service" options="-parameters" />
+      <module name="roncoo-pay-web-boss" options="-parameters" />
+      <module name="roncoo-pay-web-gateway" options="-parameters" />
+      <module name="roncoo-pay-web-merchant" options="-parameters" />
+      <module name="roncoo-pay-web-sample-shop" options="-parameters" />
+    </option>
+  </component>
+</project>
